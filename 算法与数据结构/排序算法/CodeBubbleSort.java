@@ -1,21 +1,19 @@
+import java.util.ArrayList;
 
-//冒泡排序
-//算法的时间复杂度为（N2）
 public class CodeBubbleSort {
     public static void bubbleSort(int[] arr){
         if(arr == null||arr.length<2){
             return;
         }
-        for(int end=arr.length-1;end>0;end--) {    0---N-1  遍历N次
-            for (int i = 0; i < end; i++) {        0---N-2
+        for(int end=arr.length-1;end>0;end--) {
+            for (int i = 0; i < end; i++) {
                 if (arr[i] > arr[i + 1]) {
                     swap(arr, i, i + 1);
                 }
-
+            
             }
         }
     }
-    //调换位置
     public static void swap(int[] arr,int i,int j){
         int tmp = arr[i];
         arr[i] = arr[j];

@@ -1,5 +1,3 @@
-package Algorithm;
-
 
 public class SelectionSort {
     //选择排序
