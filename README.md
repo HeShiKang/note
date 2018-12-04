@@ -41,6 +41,7 @@
   [group by <列名1>] [having <条件表达式>]   //聚集函数这里不能用where，只能用having
   [order by<列名 2>] [asc|desc]  
   ```
+  where 对表操作 having对组操作
   **修改数据**
   ``` 
     insert into <表名>   [(属性列 1)] values (a,b,c)
