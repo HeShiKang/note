@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GeneralArrayStack",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "GeneralArrayStack",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CodeBubbleSort",
             "request": "launch",
             "cwd": "${workspaceFolder}",
